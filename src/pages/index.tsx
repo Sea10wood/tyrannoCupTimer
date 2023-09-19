@@ -68,7 +68,7 @@ const CountdownTimer: React.FC = () => {
 
   const timerTextStyle: React.CSSProperties = {
     fontWeight: 'bold', // 太字
-    fontSize: '3vw',
+    fontSize: '5vw',
     fontFamily: 'Orbitron, sans-serif',
   };
 
@@ -76,9 +76,9 @@ const CountdownTimer: React.FC = () => {
     <div style={centerStyle}>
          <div style={containerStyle}>
 
-      <h1 style={headingStyle}>Hackz Hackathon ティラノカップ</h1>
+      <h1 style={headingStyle}>Hackz Hackathon ティラノカップ最終発表まで残り時間</h1>
       <p style={timerTextStyle}>
-        最終発表まで残り時間 {remainingDays} 日  {remainingHours} 時間 {remainingMinutes} 分 {remainingSeconds} 秒
+        {remainingDays} 日  {remainingHours} 時間 {remainingMinutes} 分 {remainingSeconds} 秒
       </p>
          </div>
     </div>
