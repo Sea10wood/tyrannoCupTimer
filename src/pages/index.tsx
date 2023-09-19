@@ -59,6 +59,7 @@ const CountdownTimer: React.FC = () => {
 
   const headingStyle: React.CSSProperties = {
     fontWeight: 'bold', 
+    fontSize: '2vw',
     fontFamily: 'Orbitron, sans-serif',
     background: 'linear-gradient(100deg, #1af7fb, #fabe00)', // グラデーション背景
   WebkitBackgroundClip: 'text', // テキストを背景にクリップ
@@ -67,7 +68,7 @@ const CountdownTimer: React.FC = () => {
 
   const timerTextStyle: React.CSSProperties = {
     fontWeight: 'bold', // 太字
-    fontSize: '40px',
+    fontSize: '3vw',
     fontFamily: 'Orbitron, sans-serif',
   };
 
