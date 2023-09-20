@@ -7,7 +7,7 @@ const CountdownTimer: React.FC = () => {
   const [remainingSeconds, setRemainingSeconds] = useState<number>(0);
 
   // 目標日時を設定
-  const targetDate = new Date('2023-09-21T03:00:00Z').getTime();
+  const targetDate = new Date('2023-09-21T06:00:00Z').getTime();
 
   useEffect(() => {
     const interval = setInterval(() => {
